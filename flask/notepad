@@ -1,0 +1,1 @@
+docker run -d --name es01 --net flask_elastic -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" mini/elasticsearch
