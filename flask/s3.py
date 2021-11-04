@@ -7,8 +7,8 @@ def Download_file(file):
     s3 = boto3.resource(
         service_name='s3',
         region_name='us-east-2',
-        aws_access_key_id='AKIAYCLGEJNDWM6R4LVK',
-        aws_secret_access_key='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'
+        aws_access_key_id='',
+        aws_secret_access_key=''
 
     )
     # select bucket
