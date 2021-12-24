@@ -1,6 +1,6 @@
 sudo apt install awscli
 
-aws configure set aws_access_key_id AKIAYCLGEJNDWM6R4LVK; aws configure set aws_secret_access_key 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; aws configure set default.region us-east-2
+aws configure set aws_access_key_id ______ ; aws configure set aws_secret_access_key __________ ; aws configure set default.region us-east-2
 
 exists=$(aws s3 ls s3://exam-checkpoint-yarin/hello.txt)
 echo $exists
